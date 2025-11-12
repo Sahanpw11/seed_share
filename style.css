@@ -3,13 +3,18 @@ html, body {
     overflow-x: hidden; 
     margin: 0; 
     padding: 0;
-    height: 100%;
     min-height: 100vh;
     background-image: url('imagebg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    padding-bottom: 80px;
 }
 
 .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: -1; }
@@ -88,19 +93,17 @@ button[name="clear_all"]:hover { background: linear-gradient(135deg, #d32f2f, #b
 
 .intro { 
     text-align: center; 
-    margin-bottom: 0 !important;
+    margin-bottom: 40px !important;
 }
 footer { 
     text-align: center; 
     padding: 20px 0; 
     color: white; 
     background: #4CAF50; 
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    margin-top: 60px;
     width: 100%;
     z-index: 1000;
-    margin: 0;
 }
 
 @media (max-width: 768px) {
