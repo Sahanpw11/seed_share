@@ -9,10 +9,14 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
-    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: -1; }
@@ -92,15 +96,15 @@ button[name="clear_all"]:hover { background: linear-gradient(135deg, #d32f2f, #b
 .intro { 
     text-align: center; 
     margin-bottom: 100px !important;
+    flex: 1;
 }
 footer { 
     text-align: center; 
     padding: 20px 0; 
     color: white; 
     background: #4CAF50; 
-    position: relative;
     width: 100%;
-    margin-top: 60px;
+    margin-top: auto;
 }
 
 @media (max-width: 768px) {
