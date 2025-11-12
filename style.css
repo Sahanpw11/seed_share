@@ -3,7 +3,7 @@ html, body {
     overflow-x: hidden; 
     margin: 0; 
     padding: 0;
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: url('imagebg.png');
     background-size: cover;
     background-position: center;
@@ -95,8 +95,7 @@ button[name="clear_all"]:hover { background: linear-gradient(135deg, #d32f2f, #b
 
 .intro { 
     text-align: center; 
-    margin-bottom: 100px !important;
-    flex: 1;
+    margin-bottom: 40px !important;
 }
 footer { 
     text-align: center; 
