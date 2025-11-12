@@ -103,7 +103,7 @@ footer {
     left: 0;
     width: 100%;
     z-index: 1000;
-    margin-top: 1080px;
+    margin-top: 500px;
 }
 
 @media (max-width: 768px) {
@@ -319,7 +319,7 @@ footer {
     padding: 30px 20px;
     color: white;
     background: linear-gradient(135deg, #2E7D32, #4CAF50);
-    margin-top: 1080px;
+    margin-top: 500px;
     font-size: 1rem;
     font-weight: 500;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
@@ -334,7 +334,7 @@ footer::before {
     right: 0;
     height: 2px;
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-    margin-top: 1080px;
+    margin-top: 500px;
 }
 
 @media (max-width: 768px) {
