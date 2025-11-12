@@ -1,8 +1,6 @@
 <?php
-// Database setup script - Run this once to create the table properly
 include("dataBase.php");
 
-// Drop existing table if it has issues
 $drop_query = "DROP TABLE IF EXISTS seeds";
 if(mysqli_query($conn, $drop_query)){
     echo "✓ Existing table dropped (if any)<br>";
@@ -10,7 +8,6 @@ if(mysqli_query($conn, $drop_query)){
     echo "✗ Error dropping table: " . mysqli_error($conn) . "<br>";
 }
 
-// Create table with proper AUTO_INCREMENT
 $create_query = "CREATE TABLE seeds (
     id INT AUTO_INCREMENT PRIMARY KEY,
     seed_name VARCHAR(100) NOT NULL,
