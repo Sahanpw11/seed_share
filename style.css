@@ -98,12 +98,9 @@ footer {
     padding: 20px 0; 
     color: white; 
     background: #4CAF50; 
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
     width: 100%;
-    z-index: 1000;
-    margin-top: 500px;
+    margin-top: 60px;
 }
 
 @media (max-width: 768px) {
@@ -313,29 +310,6 @@ tr:hover {
     font-weight: bold;
     margin-top: 10px;
     }
-  
-footer {
-    text-align: center;
-    padding: 30px 20px;
-    color: white;
-    background: linear-gradient(135deg, #2E7D32, #4CAF50);
-    margin-top: 500px;
-    font-size: 1rem;
-    font-weight: 500;
-    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-
-footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-    margin-top: 500px;
-}
 
 @media (max-width: 768px) {
     header {
